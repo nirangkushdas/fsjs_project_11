@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+body{
+    background-color: #171717;
+    font-family: montserrat;
+}
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.mainimg{
+   position: relative;
+   bottom: 150px;
+}
+
+.first-listtags:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.first-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    color: #ffffff;
+    font-weight: 500;
+    height: 20px;
+    padding-top: 50px;
+    margin-right: 50px;
+}
+
+.beatslogo{
+    position: relative;
+    left: 120px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.shopbtn{
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: medium;
+    color: #ffffff;
+    background-color: #252525;
+    border-radius: 5px;
+    border: transparent;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+}
+
+.firstpart{
+    position: absolute;
+    left: 687px;
+    bottom: 290px;
+}
+
+.onear{
+  position: relative;
+  left: 50px;
+  top: 5px;
+}
+
+.beats3{
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.overview{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: large;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.para1{
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.cartbtn{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #252525;
+    font-size: medium;
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+.addbag{
+    position: relative;
+    top: 2.5px;
+    font-weight: 300;
+}
+
+.N399k{
+    position: relative;
+    top: 2.5px;
+    font-weight: 600;
+}
+
+.techbrands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.specs{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.secondpardiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.forweight{
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.forsize{
+    font-size: small;
+    color: #808080;
+}
+
+.container1{
+    padding: 20px 0;
+    position: relative;
+    right: 30px;
+}
+
+.desicons{
+    position: relative;
+    left: 50px;
+}
+
+.specsimg{
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+.case{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.third-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.para3{
+    color: #b6b6b6;
+    line-height: 30px;
+}
+
+.btn3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #ffffff;
+    background-color: #252525;
+    font-size: medium;
+    border: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.moreinfo{
+    position: relative;
+    top: 1px;
+}
+
+.casepara{
+    position: relative;
+    top: 110px;
+}
+
+.btn4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: medium;
+    border: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buynow{
+    position: relative;
+    top: 4px;
+}
+
+.immerse{
+    font-size: 2vw;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.para40{
+    color: #b6b6b6;
+}
+
+.buynowpart{
+    position: relative;
+    top: 50px;
+}
+
+.part4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1e1e1e;
+    max-width: 1000px;
+    margin-left: 200px;
+    border-radius: 5px;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+.choose{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.n299{
+    position: relative;
+    margin-bottom: 100px;
+    background-color: #1e1e1e;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+.backbeats{
+    max-width: 100px;
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+}
+
+.black{
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    top: 100px;
+    left: 5px;
+}
+
+.n299k{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+
+
+
+.groupcolor{
+    background-color: #000000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: relative;
+    right: 5px; 
+    bottom: 15px; 
+    cursor: pointer;
+   
+    
+}
+
+.n2{
+    color: #b6b6b6;
+    position: relative;
+    left: 5px;
+}
+
+.part5flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 125px;
+}
+
+.twilight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    right: 105px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px ;
+    padding-top: 50px;
+}
+
+.footersub{
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+    color: #b6b6b6;
+    /* gap: 20px; */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footsub{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inp2{
+    border: none;
+    background-color: #1e1e1e;
+    color: #b6b6b6;
+    font-size: medium;
+    position: relative;
+    top: 10px;
+}
+
+.subbutton{
+    font-size: small;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.iconsdiv{
+    margin-top: 25px;
+}
+
+.iconstag{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.facebook{
+    cursor: pointer;
+}
+
+.footer-list{
+    list-style: none;
+    position: relative;
+    left: 120px;
+    
+}
+
+.footer-list2{
+    list-style: none;
+    position: relative;
+    left: 190px;
+    
+}
+
+.footerhead{
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footertags{
+    color: #b6b6b6;
+    margin-bottom: 20px;
+    font-size: small;
+}
+.footertags:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer4{
+    position: relative;
+    left: 50px;
+}
+
+.lastlogo{
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+}
+
+.uparrow{
+    position: relative;
+    top: 120px;
+    right: 20px;
+    cursor: pointer;
+
+}
